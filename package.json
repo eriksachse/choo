@@ -1,0 +1,31 @@
+{
+  "name": "choo",
+  "version": "1.0.0",
+  "description": "123",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eriksachse/choo.git"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "svg"
+  ],
+  "author": "Erik Sachse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eriksachse/choo/issues"
+  },
+  "homepage": "https://github.com/eriksachse/choo#readme",
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.0.16"
+  }
+}
